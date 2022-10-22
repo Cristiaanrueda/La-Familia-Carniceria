@@ -1,0 +1,91 @@
+.wrapper {
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    
+
+
+}
+
+.nav_logo{
+    background: url(./assets/laFamilia_logo_a_retocar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 15rem;
+    height: 15rem;
+    flex-basis: 15%;
+
+}
+
+nav a {
+    /* padding: 50px 160px; */
+    /* padding: 20px 5px; */
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+
+    
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* justify-content: space-around; */
+    font-size: 3rem;
+
+}
+
+nav li{
+    flex-grow:1;
+    text-align:center;
+
+
+  }
+
+
+nav li a{
+    color: #362312;
+    display: block;
+    text-decoration: none;
+    padding: 4.5rem 1rem;
+
+
+}
+
+nav li a:hover {
+    /* background: tomato; */
+    background: rgba(0, 0, 0, 0.2);
+    color: #362312;;
+  }
+
+
+
+/* anuncio */
+
+.anuncio_top {
+    background: rgb(131, 62, 131);
+    text-align: center;
+    color: rgb(253, 237, 221);
+    height: 3rem;
+
+}
+
+.anuncio_top p {
+    padding: 0.5rem;
+    font-size: 2rem;
+}
