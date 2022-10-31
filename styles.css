@@ -1,5 +1,7 @@
 .wrapper {
     margin: 0 auto;
+    width: 85%;
+    
 }
 
 header {
@@ -45,13 +47,12 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    /* justify-content: space-around; */
     font-size: 3rem;
 
 }
 
 nav li{
-    flex-grow:1;
+    flex-grow:1; /* Hace que el li ocupe todo el espacio, sirve para que no quede feo cuando se pasa el :hover, asi no queda tan espaciado. con el padding al anchor le damos altura vertical para que nos quede piola */
     text-align:center;
 
 
@@ -88,4 +89,28 @@ nav li a:hover {
 .anuncio_top p {
     padding: 0.5rem;
     font-size: 2rem;
+}
+
+/* INFO */
+
+.info_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background: #e0cfbd;
+    
+}
+
+/* .info_img_container {
+    flex-basis: 60%;
+} */
+.info_img_container img {
+    justify-content: center;
+    flex-basis: 60%;
+}
+
+.info_text {
+    flex-basis: 40%;
+    font-size: 1.8rem;
 }
