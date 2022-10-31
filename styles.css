@@ -114,3 +114,55 @@ nav li a:hover {
     flex-basis: 40%;
     font-size: 1.8rem;
 }
+
+.separator {
+    background: rgb(131, 62, 131);
+    margin-top: 1rem;
+    height: 0.5rem;
+}
+
+/* galeria */
+
+
+
+/* contacto */
+
+.contacto_form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    grid-gap: 1rem;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+.derechos {
+    display: flex;
+    align-items: center;
+}
+
+.derechos img{
+    width: 10rem;
+    height: 10rem;
+}
+
+
+.redes {
+    display: flex;
+    align-content: center;
+
+}
+
+.redes ul {
+    display: flex;
+    grid-gap: 2rem;
+    list-style: none;
+}
+
+
