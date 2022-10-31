@@ -1,7 +1,7 @@
 .wrapper {
     margin: 0 auto;
     width: 85%;
-    
+
 }
 
 header {
@@ -13,12 +13,12 @@ nav {
     padding: 1rem;
     width: 100%;
     height: 100%;
-    
+
 
 
 }
 
-.nav_logo{
+.nav_logo {
     background: url(./assets/laFamilia_logo_a_retocar.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +38,7 @@ nav a {
     text-align: center;
 
 
-    
+
 }
 
 
@@ -51,15 +51,16 @@ nav ul {
 
 }
 
-nav li{
-    flex-grow:1; /* Hace que el li ocupe todo el espacio, sirve para que no quede feo cuando se pasa el :hover, asi no queda tan espaciado. con el padding al anchor le damos altura vertical para que nos quede piola */
-    text-align:center;
+nav li {
+    flex-grow: 1;
+    /* Hace que el li ocupe todo el espacio, sirve para que no quede feo cuando se pasa el :hover, asi no queda tan espaciado. con el padding al anchor le damos altura vertical para que nos quede piola */
+    text-align: center;
 
 
-  }
+}
 
 
-nav li a{
+nav li a {
     color: #362312;
     display: block;
     text-decoration: none;
@@ -71,8 +72,9 @@ nav li a{
 nav li a:hover {
     /* background: tomato; */
     background: rgba(0, 0, 0, 0.2);
-    color: #362312;;
-  }
+    color: #362312;
+    ;
+}
 
 
 
@@ -99,7 +101,7 @@ nav li a:hover {
     justify-content: center;
     margin-top: 1rem;
     background: #e0cfbd;
-    
+
 }
 
 /* .info_img_container {
@@ -140,6 +142,9 @@ nav li a:hover {
 footer {
     display: flex;
     align-items: center;
+    grid-gap: 2rem;
+    font-size: 2.1rem;
+    justify-content: space-evenly;
 }
 
 .derechos {
@@ -147,7 +152,7 @@ footer {
     align-items: center;
 }
 
-.derechos img{
+.derechos img {
     width: 10rem;
     height: 10rem;
 }
@@ -164,5 +169,3 @@ footer {
     grid-gap: 2rem;
     list-style: none;
 }
-
-
